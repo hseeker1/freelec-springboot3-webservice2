@@ -1,6 +1,5 @@
 package com.sohan.book.springboot.domain.posts;
 
-import com.sohan.book.springboot.domain.posts.BaseTimeEntity;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
