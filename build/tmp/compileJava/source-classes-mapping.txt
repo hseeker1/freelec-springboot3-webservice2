@@ -1,29 +1,53 @@
+com/sohan/book/springboot/config/auth/LoginUserArgumentResolver.java
+ com.sohan.book.springboot.config.auth.LoginUserArgumentResolver
+com/sohan/book/springboot/domain/user/Role.java
+ com.sohan.book.springboot.domain.user.Role
 com/sohan/book/springboot/web/HelloController.java
  com.sohan.book.springboot.web.HelloController
+com/sohan/book/springboot/domain/user/UserRepository.java
+ com.sohan.book.springboot.domain.user.UserRepository
 com/sohan/book/springboot/domain/posts/BaseTimeEntity.java
  com.sohan.book.springboot.domain.posts.BaseTimeEntity
-com/sohan/book/springboot/domain/posts/Posts.java
- com.sohan.book.springboot.domain.posts.Posts
- com.sohan.book.springboot.domain.posts.Posts$PostsBuilder
-com/sohan/book/springboot/web/dto/HelloResponseDto.java
- com.sohan.book.springboot.web.dto.HelloResponseDto
-com/sohan/book/springboot/web/dto/PostsListResponseDto.java
- com.sohan.book.springboot.web.dto.PostsListResponseDto
-com/sohan/book/springboot/web/dto/PostsSaveRequestDto.java
- com.sohan.book.springboot.web.dto.PostsSaveRequestDto
- com.sohan.book.springboot.web.dto.PostsSaveRequestDto$PostsSaveRequestDtoBuilder
-com/sohan/book/springboot/web/dto/PostsResponseDto.java
- com.sohan.book.springboot.web.dto.PostsResponseDto
 com/sohan/book/springboot/Application.java
  com.sohan.book.springboot.Application
+com/sohan/book/springboot/config/auth/dto/SessionUser.java
+ com.sohan.book.springboot.config.auth.dto.SessionUser
+com/sohan/book/springboot/web/dto/HelloResponseDto.java
+ com.sohan.book.springboot.web.dto.HelloResponseDto
+com/sohan/book/springboot/web/dto/PostsResponseDto.java
+ com.sohan.book.springboot.web.dto.PostsResponseDto
 com/sohan/book/springboot/domain/posts/PostsRepository.java
  com.sohan.book.springboot.domain.posts.PostsRepository
+com/sohan/book/springboot/domain/user/User.java
+ com.sohan.book.springboot.domain.user.User
+ com.sohan.book.springboot.domain.user.User$UserBuilder
+com/sohan/book/springboot/web/IndexController.java
+ com.sohan.book.springboot.web.IndexController
+com/sohan/book/springboot/config/auth/dto/OAuthAttributes.java
+ com.sohan.book.springboot.config.auth.dto.OAuthAttributes
+ com.sohan.book.springboot.config.auth.dto.OAuthAttributes$OAuthAttributesBuilder
+com/sohan/book/springboot/config/auth/LoginUser.java
+ com.sohan.book.springboot.config.auth.LoginUser
+com/sohan/book/springboot/service/PostsService.java
+ com.sohan.book.springboot.service.PostsService
 com/sohan/book/springboot/web/dto/PostsUpdateRequestDto.java
  com.sohan.book.springboot.web.dto.PostsUpdateRequestDto
  com.sohan.book.springboot.web.dto.PostsUpdateRequestDto$PostsUpdateRequestDtoBuilder
-com/sohan/book/springboot/web/IndexController.java
- com.sohan.book.springboot.web.IndexController
+com/sohan/book/springboot/web/dto/PostsSaveRequestDto.java
+ com.sohan.book.springboot.web.dto.PostsSaveRequestDto
+ com.sohan.book.springboot.web.dto.PostsSaveRequestDto$PostsSaveRequestDtoBuilder
+com/sohan/book/springboot/domain/posts/Posts.java
+ com.sohan.book.springboot.domain.posts.Posts
+ com.sohan.book.springboot.domain.posts.Posts$PostsBuilder
 com/sohan/book/springboot/web/PostsApiController.java
  com.sohan.book.springboot.web.PostsApiController
-com/sohan/book/springboot/service/PostsService.java
- com.sohan.book.springboot.service.PostsService
+com/sohan/book/springboot/web/dto/PostsListResponseDto.java
+ com.sohan.book.springboot.web.dto.PostsListResponseDto
+com/sohan/book/springboot/config/auth/CustomOAuth2UserService.java
+ com.sohan.book.springboot.config.auth.CustomOAuth2UserService
+com/sohan/book/springboot/config/auth/SecurityConfig.java
+ com.sohan.book.springboot.config.auth.SecurityConfig
+com/sohan/book/springboot/config/auth/JpaConfig.java
+ com.sohan.book.springboot.config.auth.JpaConfig
+com/sohan/book/springboot/config/auth/WebConfig.java
+ com.sohan.book.springboot.config.auth.WebConfig

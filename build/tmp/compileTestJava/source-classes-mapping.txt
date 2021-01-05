@@ -1,10 +1,10 @@
-com/sohan/book/springboot/domain/posts/PostsRepositoryTest.java
- com.sohan.book.springboot.domain.posts.PostsRepositoryTest
-com/sohan/book/springboot/domain/posts/web/dto/HelloResponseDtoTest.java
- com.sohan.book.springboot.domain.posts.web.dto.HelloResponseDtoTest
 com/sohan/book/springboot/domain/posts/web/IndexControllerTest.java
  com.sohan.book.springboot.domain.posts.web.IndexControllerTest
-com/sohan/book/springboot/domain/posts/web/HelloControllerTest.java
- com.sohan.book.springboot.domain.posts.web.HelloControllerTest
+com/sohan/book/springboot/domain/posts/web/dto/HelloResponseDtoTest.java
+ com.sohan.book.springboot.domain.posts.web.dto.HelloResponseDtoTest
 com/sohan/book/springboot/domain/posts/web/PostsApiControllerTest.java
  com.sohan.book.springboot.domain.posts.web.PostsApiControllerTest
+com/sohan/book/springboot/domain/posts/PostsRepositoryTest.java
+ com.sohan.book.springboot.domain.posts.PostsRepositoryTest
+com/sohan/book/springboot/domain/posts/web/HelloControllerTest.java
+ com.sohan.book.springboot.domain.posts.web.HelloControllerTest
