@@ -13,7 +13,23 @@ cache:
 
 script: "./gradlew clean build"
 
+before_deploy:
+  - zip -r freelec-springboot3-webservice2
+  - mkdir -p deploy
+  - mv freelec-springboot3-webservice2.zip deploy/freelec-springboot3-webservice2.zip
+
+deploy:
+  - provider: s3
+    access_key_id: $AWS_ACEESS_KEY
+    secret_access_key: $AWS_SECRET_KEY
+    bucket: freelec-springboot3-build
+    region: ap-northeast-2
+    skip_cleanup: true
+    acl: private
+    local_dir: deploy
+    wait-until-deployed : true
+
 notifications:
   email:
     recipients:
-      - uhmme@naver.com
+      - seungoh.han@gmail.com
